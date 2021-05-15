@@ -8,13 +8,13 @@ let { getSession, commitSession, destroySession } = createCookieSessionStorage({
 
     // all of these are optional
     domain: "remix.run",
-    expires: new Date(Date.now() + 600),
+    expires: new Date(Date.now() + 60),
     httpOnly: true,
     maxAge: 60,
     path: "/",
     sameSite: "lax",
     secrets: ["s3cret1"],
-    secure: true,
+    secure: false,
   },
 });
 

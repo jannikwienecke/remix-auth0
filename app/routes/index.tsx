@@ -7,7 +7,8 @@ import { commitSession, getSession } from "../sessions";
 
 export const loader: LoaderFunction = async ({ request }) => {
   let session = await getSession(request.headers.get("Cookie"));
-  console.log("Session data Index:", session.data);
+
+  console.log("Session data Index Page:", session.data);
 
   return {};
 };
