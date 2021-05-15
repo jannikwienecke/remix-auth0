@@ -1,0 +1,56 @@
+{
+  "version": "92504209",
+  "entry": {
+    "module": "/build/entry.client-HQWKVKUB.js",
+    "imports": [
+      "/build/_shared/chunk-JCXF32T6.js",
+      "/build/_shared/chunk-DOM5QJLA.js"
+    ]
+  },
+  "routes": {
+    "root": {
+      "id": "root",
+      "path": "/",
+      "module": "/build/root-ELEHVQV7.js",
+      "imports": [
+        "/build/_shared/chunk-F662HWYD.js"
+      ],
+      "hasAction": false,
+      "hasLoader": true
+    },
+    "routes/404": {
+      "id": "routes/404",
+      "parentId": "root",
+      "path": "*",
+      "caseSensitive": false,
+      "module": "/build/routes/404-X5IXLL6F.js",
+      "hasAction": false,
+      "hasLoader": false
+    },
+    "routes/index": {
+      "id": "routes/index",
+      "parentId": "root",
+      "path": "/",
+      "caseSensitive": false,
+      "module": "/build/routes/index-6OKZESDG.js",
+      "imports": [
+        "/build/_shared/chunk-YQ3AOS7O.js"
+      ],
+      "hasAction": false,
+      "hasLoader": true
+    },
+    "routes/login": {
+      "id": "routes/login",
+      "parentId": "root",
+      "path": "login",
+      "caseSensitive": false,
+      "module": "/build/routes/login-ZKSAI74F.js",
+      "imports": [
+        "/build/_shared/chunk-YQ3AOS7O.js"
+      ],
+      "hasAction": true,
+      "hasLoader": false
+    }
+  },
+  "url": "/build/manifest-92504209.js"
+}
